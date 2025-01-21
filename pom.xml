@@ -61,6 +61,8 @@
     </dependencies>
 
     <build>
+
+        <finalName>SpringBatch-Product-Import</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
