@@ -1,4 +1,5 @@
 FROM openjdk:17
+
 LABEL maintainer="yeshwanth"
 
 COPY target/SpringBatch-Product-Import.jar /usr/app/SpringBatch-Product-Import.jar
