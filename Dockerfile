@@ -1,4 +1,3 @@
-//use java 17 as base image then author yeshwanth and copy the jar file to the image
 FROM openjdk:17
 LABEL maintainer="yeshwanth"
 
