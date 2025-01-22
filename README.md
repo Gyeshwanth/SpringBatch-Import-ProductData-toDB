@@ -4,10 +4,11 @@
 This project demonstrates a Spring Boot application that processes CSV files using Spring Batch. The application reads product data from a CSV file, processes it, and stores it in an H2 in-memory database.
 
 ## Features
-- Upload CSV files containing product data.
-- Process and validate CSV data using Spring Batch.
-- Store processed data in an H2 in-memory database.
-- Monitor batch job execution status.
+- Upload CSV files containing product data
+- Process and validate CSV data using Spring Batch
+- Store processed data in an H2 in-memory database
+- Export product data to a CSV file
+- Monitor batch job execution status
 
 ## Prerequisites
 - Java 17 or higher.
@@ -45,6 +46,11 @@ mvn spring-boot:run
 - **Method**: `POST`
 - **Request Param**: `file` (MultipartFile)
 - **Description**: Upload a CSV file containing product data to be processed.
+
+### Export Product Data
+- **URL**: `/products/export`
+- **Method**: `GET`
+- **Description**: Export product data to a CSV file.
 
 ## Configuration
 
